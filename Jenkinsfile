@@ -16,7 +16,8 @@ pipeline {
         }
         stage('Deploying contract') {
             steps {
-                sh 'node contracts/eth-script.js'
+                final String response = sh 'node contracts/eth-script.js'
+                echo response
             }
         }
     }
