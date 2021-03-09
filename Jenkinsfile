@@ -8,11 +8,11 @@ pipeline {
                 sh 'npm install web3'
                 sh 'npm install @truffle/hdwallet-provider'
             }
+        }
         stage('Compiling contract') {
             steps {
                 sh 'node contracts/compile.js'
             }
-        }
         }
     }
 }
