@@ -5,6 +5,8 @@ const MyContract = require('./bin/MyContract.json')
 
 //Signing transaction with wallet
 const HDWalletProvider = require('@truffle/hdwallet-provider');
+
+//Random address and private key
 const address = '0x25Ca8040596FD7D330C74AaD93dEDEbf9FDf9a29';
 const privateKey = '0xac427592d1df42a1bd94c6e5ec84d1f60253a4296847ebb08138b4445eba7850';
 
