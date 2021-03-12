@@ -7,8 +7,8 @@ const MyContract = require('./bin/MyContract.json')
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 //Random address and private key
-const address = '0x25Ca8040596FD7D330C74AaD93dEDEbf9FDf9a29';
-const privateKey = '0xac427592d1df42a1bd94c6e5ec84d1f60253a4296847ebb08138b4445eba7850';
+const address = '0xd9ED426f3F1ca5351480006bC9aB86CA97eFeFA6';
+const privateKey = '0xd7d113798a8f06669525813431ecc5972faec78b40f6b58df43275ccdcb5c1b9';
 
 const init = async () => {
     const provider = new HDWalletProvider(privateKey, "https://ropsten.infura.io/v3/b08ecb4bb9e945beb2373643b4db9e9d");
